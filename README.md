@@ -11,14 +11,19 @@ An automated job search assistant that finds, ranks, and emails relevant job pos
 
 ## Quick Start
 
-1. Set up your environment variables:
+1. Install dependencies:
+   ```bash
+   pip install -e .
+   ```
+
+2. Set up your environment variables:
    ```bash
    export OPENAI_API_KEY="your-openai-key"
    export SERPAPI_API_KEY="your-serpapi-key"
    export JOB_SEARCH_EMAIL="your-email@example.com"
    ```
 
-2. Run the job search:
+3. Run the job search:
    ```bash
    python main.py
    ```
